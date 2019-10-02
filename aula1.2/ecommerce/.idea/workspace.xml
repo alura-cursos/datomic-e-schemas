@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db55602a-0bc9-4e05-a0aa-e09459bcf0c8" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RbMTDzUVqfKDkCsv4kn9BwRq8j" />
+  <component name="PropertiesComponent">
+    <property name="cursive.last.file.extension./Users/aluralaranja/Documents/Guilherme/datomic3-diaadia/projeto/ecommerce/src" value="clj" />
+  </component>
+  <component name="ReplState" timestamp="1569934024531">{:repl-history {:ide [], :local [{:command &quot;(ns ecommerce.aula1\n  (:use clojure.pprint)\n  (:require [datomic.api :as d]\n            [ecommerce.db :as db]\n            [ecommerce.model :as model]))&quot;, :offset 151, :ns &quot;ecommerce.core&quot;} {:command &quot;(db/apaga-banco!)&quot;, :offset 17, :ns &quot;ecommerce.aula1&quot;} {:command &quot;(def conn (db/abre-conexao!))&quot;, :offset 29, :ns &quot;ecommerce.aula1&quot;} {:command &quot;(db/cria-schema! conn)&quot;, :offset 22, :ns &quot;ecommerce.aula1&quot;} {:command &quot;(db/cria-dados-de-exemplo conn)&quot;, :offset 31, :ns &quot;ecommerce.aula1&quot;} {:command &quot;(pprint (db/todas-as-categorias (d/db conn)))&quot;, :offset 45, :ns &quot;ecommerce.aula1&quot;} {:command &quot;(pprint (db/todos-os-produtos (d/db conn)))&quot;, :offset 43, :ns &quot;ecommerce.aula1&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="REPL for ecommerce" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="ecommerce" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure REPL.REPL for ecommerce" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db55602a-0bc9-4e05-a0aa-e09459bcf0c8" name="Default Changelist" comment="" />
+      <created>1569931347495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569931347495</updated>
+    </task>
+    <servers />
+  </component>
+</project>
